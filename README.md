@@ -15,3 +15,22 @@ O notebook foi estruturado para cobrir as seguintes etapas do pipeline de dados:
 Para a execução deste projeto, utilizamos o dataset oficial proposto pela atividade:
 
 [Kaggle: House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-pricesadvanced-regression-techniques/data)
+
+### Como Rodar o Projeto
+
+Este projeto utiliza o **`uv`** para gerenciar as dependências e o ambiente virtual Python.
+
+### Passo a Passo
+
+1. **Instalar as dependências e criar o ambiente virtual:**
+   No diretório do projeto, execute:
+   ```bash
+   uv sync
+   ```
+2. **Executar o Jupyter Notebook:**
+   Você pode rodar o notebook de duas formas:
+
+     Execute o comando abaixo para abrir a interface web do Jupyter diretamente no seu navegador:
+     ```bash
+     uv run --with jupyter jupyter notebook notebook.ipynb
+     ```
